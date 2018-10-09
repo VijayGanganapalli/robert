@@ -33,7 +33,6 @@ class _SignInScreenState extends State<SignInScreen> {
                   return "Please enter an email";
                 }
               },
-              
               onSaved: (input) => _email = input,
             ),
             TextFormField(
